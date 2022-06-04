@@ -37,7 +37,7 @@
 
 .links__start {
     margin-right: 30px;
-    padding: 15px 41px;
+    padding: 15px 40px;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
@@ -122,3 +122,24 @@
         line-height: 24px;
     }
 }
+
+
+@media only screen and (max-width:417px) {
+    .hero {
+        margin-bottom: 115px;
+        padding-top: 30px;
+        padding-bottom: 0;
+        background-size: 338px 310px;
+        background-repeat: no-repeat;
+        background-position: calc(50% + 0px) calc(50% - 190px);
+    }
+
+        
+    .hero__start {
+        margin-right: 28px;
+        padding: 15px 18px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+    }
+ }
