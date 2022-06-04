@@ -1,0 +1,124 @@
+.hero {
+    margin-bottom: 115px;
+    padding: 145px 0;
+    background-image: url("../../images/hero-bg.png");
+    background-size: 600px 555px;
+    background-repeat: no-repeat;
+    background-position: calc(50% + 320px) calc(50% - 0px);
+}
+
+.hero__inner {
+    width: 100%;
+    max-width: 460px;
+}
+
+.hero__title {
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #22343D;
+}
+
+.hero__text {
+    margin-top: 0;
+    margin-bottom: 45px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #22343D;
+}
+
+.hero__links {
+    display: flex;
+    align-items: center;
+}
+
+.links__start {
+    margin-right: 30px;
+    padding: 15px 41px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #02897A;
+    border-radius: 4px;
+    transition: 0.2s ease;
+    
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.links__watch {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #02897A;
+    transition: 0.2s ease;
+    
+    &:hover {
+        opacity: 0.8;
+    }
+    
+    &::before {
+        display: block;
+        background-image: url('../images/btn-v.svg');
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+        content: '';
+    }
+}
+
+
+@media only screen and (max-width:576px) {
+    .hero {
+        margin-bottom: 115px;
+        padding-top: 30px;
+        padding-bottom: 0;
+        background-size: 338px 310px;
+        background-repeat: no-repeat;
+        background-position: calc(50% + 0px) calc(50% - 150px);
+    }
+    .hero__inner {
+        padding-top: 350px;
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .hero__title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 60px;
+    }
+    
+    .hero__text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .hero__links {
+        justify-content: center;
+    }
+    
+    .hero__start {
+        margin-right: 28px;
+        padding: 15px 24px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .hero__watch {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

@@ -4,10 +4,79 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./main.css">
-  <title>Documen</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <title>MyProduct</title>
 </head>
 <body>
-  <h1>Hello World</h1>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="header__link" href="./index.html">
+          <img src="./images/logo-site.svg" alt="logo site" width="180" height="40">
+        </a>
+        <nav class="header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link active" href="#">
+                Product
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">
+                Customers
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">
+                Picing
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">
+                Resources
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link signin" href="#">
+                Sign In
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link signup" href="#">
+                Sign Up
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__btn">
+          <input type="checkbox" id="hi">
+          <label class="menu" for="hi">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__inner">
+          <h1 class="hero__title">
+            Work at the speed <br>
+            of thought
+          </h1>
+          <p class="hero__text">
+            Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.
+          </p>
+          <div class="hero__links links">
+            <a class="links__start" href="#">Get started</a>
+            <a class="links__watch" href="#">Watch the Video</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
