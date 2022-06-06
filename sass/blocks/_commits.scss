@@ -1,0 +1,107 @@
+.commits {
+    margin-bottom: 155px;
+}
+
+.commits__info {
+    margin: 0 auto 50px auto;
+    width: 100%;
+    max-width: 537px;
+    text-align: center;
+}
+
+.commits__title {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #22343D;
+}
+
+.commits__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #22343D;
+}
+
+.commits__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.commits__item {
+    margin-right: 64px;
+    padding:  28px 28px 23px 28px;
+    width: 100%;
+    max-width: 327px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.commits__img {
+    margin-bottom: 16px;
+}
+
+.commits__texts {
+    margin: 0 0 16px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.commits__infos {
+    display: flex;
+    align-items: center;
+}
+
+.commits__image {
+    margin-right: 14px;
+}
+
+.professions__title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #02897A;
+}
+
+.professions__text {
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+
+
+@media only screen and (max-width:576px) {
+    .commits {
+        margin-bottom: 100px;
+    }
+
+    .commits__list {
+        flex-direction: column;
+    }
+    
+    .commits__item {
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+}
